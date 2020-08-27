@@ -1,4 +1,4 @@
-# awsfastlist    - LANGUAGES: English | Spanish
+# awsfastlist    - LANGUAGES: English | Spanish [pending]
 AWS Client Command List - Lightsail based - 2020 Farmacia Zaragoza
 AWS Cloud Learning and Reinventing - Brqx 
 --------------------------------------------------------------------------------------------
