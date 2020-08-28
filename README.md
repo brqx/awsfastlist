@@ -69,17 +69,25 @@ This script have been tested in 2020 in ubuntu and centos latest versions.
 
 ## Specific file information
 
-create_architecture.sh         --> Main file
+load_architecture.sh         --> Main file
 
-create_instances.sh       --> Generate the three lightsail instances
+functions.sh       --> Generate the three lightsail instances
 
-run_cluster.sh            --> Generate Kubernetes cluster in lightsail instances
+scripts.sh            --> Generate Kubernetes cluster in lightsail instances
 
-delete_cluster.sh         --> Remove lightsail instances
+## How to work
 
-install_prereqs_ubuntu.sh --> Script what will update ubuntu instances to kubernetes needed
+1. Define DATS variable path and load architecture
 
-Note: We have a method to generate these scripts preparing a fast debug step numbers to check problems inside instances
+. load_architecture.sh
+
+2. Generate fast result files to have instant work
+
+aws_list_amis_slow_ec2    > ${DATS}fast_result_amis_new.dat 
+aws_list_bundles_slow_ec2 > ${DATS}dats/fast_result_bundles_new.dat 
+
+
+3. Use fast functions with your own aws structure
 
 ==============================================================================================================================
 
