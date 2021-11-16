@@ -1,5 +1,5 @@
-# awsfastlist    - LANGUAGES: English | Spanish [pending]
-AWS Client Command List - Lightsail based - 2020 Farmacia Zaragoza
+# awsfastlist    - LANGUAGES: English | Spanish [pending] | Last Update 16 Nov 2021
+AWS Client Command List - Lightsail based - 2021 Farmacia Zaragoza
 AWS Cloud Learning and Reinventing - Brqx 
 --------------------------------------------------------------------------------------------
 https://www.linkedin.com/in/brqxng/?locale=en_US
@@ -74,6 +74,14 @@ load_architecture.sh         --> Main file
 functions.sh       --> Generate the three lightsail instances
 
 scripts.sh            --> Generate Kubernetes cluster in lightsail instances
+
+## Improvements
+
+To speed up Aws working we have improved architecture with global variables what will be runned once
+
+REGIONS --> List of any AWS REGION
+
+VPCID --> ID of current VPC
 
 ## How to work
 
